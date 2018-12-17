@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="keywords" content="Compare price at different website and get the best deal"/>
+	<title>Price-Hunt | Best Deals</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./assets/home.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<img src="./assets/photos/logo.png" alt="LOGO Here">
+		<!-- <div style=text-align:right;color:blue; display: inline-block;"><a href="login.html" target="_blank">Login/SignUP</a></div> -->
+		<div style=text-align:right;color:blue; display: inline-block;">
+			<i class="fas fa-cart-plus"></i>
+			<a href="#" onclick="alertMsg()">My Cart</a> 
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="index.html">HOME</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="books.html" target="_blank">Books <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="mobiles.html" target="_blank">Mobiles</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="laptop.html" target="_blank">Laptop</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="tv.html" target="_blank">TeleVision</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          All Categories
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="books.html">Books</a>
+	          <a class="dropdown-item" href="mobiles.html">Mobiles</a>
+	          <a class="dropdown-item" href="laptop.html">Laptop</a>
+	          <a class="dropdown-item" href="tv.html">TEleVision</a>
+	          <!-- <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a> -->
+	        </div>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0" style="float:right; ">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search_button">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="alertMsg()">Search</button>
+	    </form>
+	  </div>
+	</nav>
+	<div class="container">
+		<div class="row products">
+			<div class="card col-md-4 col-sm-6" style="width: 18rem; margin-bottom: 10px">
+		  		<a href="books.html">	
+		  			<img src="./assets/photos/the_jungle_book.jpg" alt="Books"  width="240" height="340">
+				</a>
+
+			  	<div class="card-body">
+
+			    <h5 class="card-title">THE JUNGLE BOOK</h5>
+			    <p class="card-text">Adventures in the wild
+				On a warm evening in the Seeonee hills, a family of wolves finds someone at the threshold of their caves human child, who knows nothing of the world of men. <span id="dots">...</span><span id="more">Adopted by Father Wolf, the man-cub Mowgli grows up with the pack in the Jungle.</span></p>
+			    <a href="books.html" class="btn btn-primary" target="_blank">Compare Price</a>
+			 </div>
+			</div>
+
+			<div class="card col-md-4 col-sm-6" style="width: 18rem; margin-bottom: 10px">
+				<a href="mobiles.html" target="_blank">
+				  <img src="./assets/photos/iphone.png" alt="Books" width="260" height="340">
+				</a>
+			  <div class="card-body">
+			    <h5 class="card-title">IPHONE 6</h5>
+			    <p class="card-text">iPhone 6 isn't simply bigger - it's better in every way.dramatically thinner. More powerful, but remarkably power efficientWith a smooth metal surface that seamlessly meets the new Retina HD Display.<span id="dots">...</span><span id="more"> It's one continuous form where hardware and software function in perfect unison, creating a new generation of iPhone that's better by any measure. </span></p>
+			    <a href="mobiles.html" class="btn btn-primary" target="_blank">Compare Price</a>
+			  </div>
+			</div>
+			<div class="card col-md-4 col-sm-6" style="width: 18rem; margin-bottom: 10px">
+				<a href="laptop.html" target="_blank">	
+		  			<img src="./assets/photos/mac_book_air.jpg" width="280" height="180">
+				</a>
+			  <div class="card-body">
+			    <h5 class="card-title">MAC BOOK AIR</h5>
+			    <p class="card-text">The MacBook Air is a line of Macintosh subnotebook computers developed and manufactured by Apple Inc. It consists of a full-size keyboard, a machined aluminum case, and a thin light structure. The Air is available with a screen size of (measured diagonally) 13.3-inch (33.782 cm),<span id="dots">...</span><span id="more"> with different specifications produced by Apple. Since 2010, all MacBook Air models have used solid-state drive storage and Intel Core i5 or i7 CPUs.[2] A MacBook Air with an 11.6-inch (29.46 cm) screen was made available in 2010.</span></p>
+			    <a href="laptop.html" class="btn btn-primary" target="_blank">Compare Price</a>
+			  </div>
+			</div>
+			<div class="card col-md-4 col-sm-6" style="width: 18rem; margin-bottom: 10px">
+				<a href="tv.html" target="_blank">	
+				  <img class="card-img-top" src="./assets/photos/micromax_tv.jpg" alt="Books">
+				</a>
+			  <div class="card-body">
+			    <h5 class="card-title">MICROMAX TV</h5>
+			    <p class="card-text">Enjoy watching your favorite movies and TV shows in vivid and crisp detail on the Micromax <span id="dots">...</span><span id="more">106.68 cm (42-inch) Full HD LED TV. For a high-quality audio experience, this TV has an SRS surround sound and 5-Band Graphic Equalizer. </span></p>
+			    <a href="tv.html" class="btn btn-primary" target="_blank">Compare Price</a>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- <script type="text/javascript" src="./assets/home.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+	<script>
+		function alertMsg(){
+			alert("Thankyou for Choosing us :) Feature Coming Soon!!!");
+		}
+	</script>
+</html>
